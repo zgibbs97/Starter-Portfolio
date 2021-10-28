@@ -25,22 +25,25 @@ body {
 .code-card {
     display: flex;
     flex-direction: column;
-    font-size: 75px;
-    min-height: 100%;
+    font-size: 60px;
+    min-height: 50%;
+    max-width: fit-content;
     padding: 10px;
     background-color: black;
     color:white;
-    margin: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
     text-align: center;
+    border: 2px solid white;
 }
 
 
 .card-body {
-   display:flex;
-   flex-direction: column;
-   font-size: 50px;
+   display: inline;
+   font-size: 40px;
    text-align: center;
    background-color: white;
    color: black;
    padding: 0;
+   
 }
