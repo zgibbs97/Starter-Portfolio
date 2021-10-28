@@ -3,35 +3,44 @@
  font-family: 'Courier New', Courier, monospace;
 }
 
+html {
+    font-size: 100%;
+}
 
-.intro {
-    color: white;
-    display:grid;
-    margin-left: 5%;
+body {
+    font-size: 1.75rem;
+    line-height: 1.5;
+}
+
+
+.card-column {
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    /* when the screen resizes, make it so our columns don't jump in size */
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+
+}
+
+.code-card {
+    display: flex;
+    flex-direction: column;
+    font-size: 75px;
+    min-height: 100%;
     padding: 10px;
-}
-
-.bio {
-    color: white;
-    display:grid;
-    margin-left: 5%;
-    padding: 10px;
+    background-color: black;
+    color:white;
+    margin: 50px;
+    text-align: center;
 }
 
 
-.portfolio {
-    
-    color: white;
-    display: grid;
-    margin-left: 5%;
-    padding: 10px;
+.card-body {
+   display:flex;
+   flex-direction: column;
+   font-size: 50px;
+   text-align: center;
+   background-color: white;
+   color: black;
+   padding: 0;
 }
-
-h1 {
-    padding-top:250px;
-    padding-left: 100px;
-    font-weight: bold;
-}
-
-
-
